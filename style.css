@@ -1,0 +1,30 @@
+*{
+    padding: 5px;
+    margin: 5px;
+}
+
+header {
+    background-color:black;
+    padding: 20px;
+    color: palevioletred;
+    width: 100%;
+}
+header > h1{
+    display: inline;
+    align-items: center;
+}
+header > nav > ul > li{
+    align-items: center;
+    display: inline;
+    padding: 5%;
+    border-right: 3px;
+}
+a:-webkit-any-link {
+    color: whitesmoke;
+    cursor: pointer;
+    text-decoration: underline;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+}
